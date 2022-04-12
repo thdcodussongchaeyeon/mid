@@ -1,0 +1,169 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    font-family: 'Anton', sans-serif;
+    line-height: 1.6;
+    background-color:transparent;
+    overflow-x: hidden
+}
+
+ul{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    color: #fff;
+}
+
+/* header */
+.header {
+    margin-top: 20px;
+    background-color: #0000FF;
+    color: #fff;
+    height: 80px;
+}
+.headerLeft  {
+    max-width: 1100px;
+    margin: auto;
+    padding: 0 50px;
+}
+.headerLeft ul {
+    display: flex;
+}
+.headerLeft a {
+    color: #fff;
+    padding: 10px 20px;
+    margin: auto 100px;
+    font-size: 25px;
+}
+.headerLeft a:hover {
+    border-bottom: 4px #fff solid;
+}
+.headerLeft .flex {
+    justify-content: space-betweens;
+}
+.flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.headerLeft .hooby {
+    font-size: 18px;
+}
+
+/* main */
+.container {
+    width: 1200px; 
+    background: #fff; 
+    font-size: 15px; 
+    margin: 98px auto;
+}
+.container .con1 {
+    margin: 90px; 
+    text-align: center; 
+}
+
+/* profile */
+
+.container .con2 {
+    float: left; 
+    margin: -10px 70px -10px auto;
+}
+.container .con3 {
+    float: left; 
+    margin: auto; 
+    line-height: 70px; 
+    font-size: 16px; 
+}
+.container .con3 ul li {
+    list-style-type: none;
+}
+.container .con3 img {
+    margin: -7px 10px -7px -5px;
+}
+.container .con3 .insta {
+    margin-right: 3px;
+}
+
+
+/* hobby */
+
+.container .con4 {
+    margin-top: -50px;
+}
+
+.container .con4 b {
+    font-size: 25px;
+}
+.container .con4 img {
+    float: left;
+    margin: -150px 80px 100px auto;
+}
+
+.container .con4 p {
+    font-size: 20px;
+    margin: 200px auto -50px auto;
+    line-height: 350px;
+}
+
+.container .con4 audio {
+    margin-top: -50px;
+}
+
+
+/* .container .con5 {
+    float: left;
+    margin-top: 150px;
+}
+.container .con5 b {
+    font-size: 25px;
+    margin: auto;
+}
+
+.container .con5 img {
+    float: left;
+}
+
+.container .con5 iframe {
+    float: left;
+}
+.container .con5 p {
+    font-size: 20px;
+    margin-bottom: -50px;
+    
+} */
+
+
+
+
+/* footer */
+.footer {
+    position: fixed; 
+    width: 100%; 
+    height: 90px; 
+    background: #0000FF; 
+    color: #fff; 
+    left: 0; 
+    bottom: 0; 
+    font-size: 12px; 
+    line-height: 18px;
+}
+.footer .footerTop {
+    float: left; 
+    margin: 10px 350px; 
+    margin-bottom: 0;
+}
+.footer .footerBot {
+    float: right; 
+    margin: 65px 350px; 
+    margin-bottom: 0;
+}
